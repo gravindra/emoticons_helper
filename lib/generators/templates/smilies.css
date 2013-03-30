@@ -1,39 +1,16 @@
-.smilies{
-  width:20px;
-  height:20px;
-  display: inline-block;
-
-}
-
-.smile{
-  background:url(smilies-sprite.png) 0 0;
-}
-
-.laugh{
-  background:url(smilies-sprite.png) -20px 0;
-}
-
-.tongue{
-  background:url(smilies-sprite.png) -20px -20px;
-}
-
-.smart{
-  background:url(smilies-sprite.png) -40px 0;
-}
-
-.sad{
-  background:url(smilies-sprite.png) -60px -60px;
-}
-
-.wink{
-  background:url(smilies-sprite.png) -60px -20px;
-}
-
-.angry{
-  background:url(smilies-sprite.png) -60px 0;
-}
-
-.louds{
-  background:url(smilies-sprite.png) -60px -60px;
-}
-
+.smilies{width:20px; height:20px; display: inline-block;}
+.smile{background:url(smilies-sprite.png) 0 0;}
+.laugh{background:url(smilies-sprite.png) -20px 0;}
+.tongue{background:url(smilies-sprite.png) -20px -20px;}
+.smart{background:url(smilies-sprite.png) -40px 0;}
+.sad{background:url(smilies-sprite.png) -60px -60px;}
+.wink{background:url(smilies-sprite.png) -60px -20px;}
+.angry{background:url(smilies-sprite.png) -60px 0;}
+.louds{background:url(smilies-sprite.png) -60px -60px;}
+.evil{background:url(smilies-sprite.png) -80px -104px;}
+.skeptical{background:url(smilies-sprite.png) -80px -40px;}
+.confused{background:url(smilies-sprite.png) -40px -20px;}
+.sleeping{background:url(smilies-sprite.png) -20px -60px;}
+.like{background:url(smilies-sprite.png) 0 -104px;}
+.dislike{background:url(smilies-sprite.png) -20px -104px;}
+.rofl{background:url(smilies-sprite.png) -60px -40px;}
