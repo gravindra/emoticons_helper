@@ -1,9 +1,26 @@
 = emoticons_helper
 
-Description goes here.
+How to use
+
+Include the gem in the Gemfile
+
+gem "emoticons_helper"
+
+Run bundle install
+
+Run the generator
+
+rails generate smile
+
+Now in your view file use the method replace_smilies
+
+<%= replace_smilies(text) %>
 
 == Contributing to emoticons_helper
- 
+
+Please checkout and add your favourite smiley to enhance this gem and bring a smile on every gem users.
+Keep coding Keep rocking.
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
