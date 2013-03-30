@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/gravindra/emoticons_helper"
   gem.license = "MIT"
   gem.summary = %Q{This Gem Rocks ... }
-  gem.description = %Q{ DESC }
+  gem.description = %Q{Gives face to your text.}
   gem.email = "ravighare26@gmail.com"
   gem.authors = ["gravindra"]
   # dependencies defined in Gemfile
