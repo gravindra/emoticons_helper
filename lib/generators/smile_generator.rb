@@ -8,7 +8,7 @@ module SmileyHelpers
     smilies = YAML.load_file("\#{Rails.root}/config/smilies.yml")
     smilies.each_pair do |k, v|
       new_str = "<span class=\\'smilies "+k+"\\'>&nbsp;</span>"
-      str = str.gsub(v, new_str)
+      v.each{|val| str = str.gsub(val, new_str)}
     end
     str.html_safe
   end
