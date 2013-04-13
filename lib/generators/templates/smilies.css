@@ -14,3 +14,21 @@
 .like{background:url(smilies-sprite.png) 0 -104px;}
 .dislike{background:url(smilies-sprite.png) -20px -104px;}
 .rofl{background:url(smilies-sprite.png) -60px -40px;}
+
+/* Animated Smilies*/
+
+.animatesmile{background:url(smilies/smile.gif) no-repeat 0 0;}
+.animatelaugh{background:url(smilies/bigsmile.gif) 0 0;}
+.animatetongue{background:url(smilies/tongueout.gif) 0 0;}
+.animatesmart{background:url(smilies/cool.gif) 0 0;}
+.animatesad{background:url(smilies/sadsmile.gif) 0 0;}
+.animatewink{background:url(smilies/wink.gif) 0 0;}
+.animateangry{background:url(smilies/angry.gif) 0 0;}
+.animatelouds{background:url(smilies/bigsmile.gif) 0 0;}
+.animateevil{background:url(smilies/evilgrin.gif) 0 0;}
+.animateskeptical{background:url(smilies/worried.gif) 0 0;}
+.animateconfused{background:url(smilies/wondering.gif) 0 0;}
+.animatesleeping{background:url(smilies/sleepy.gif) 0 0;}
+.animatelike{background:url(smilies/yes.gif) 0 0;}
+.animatedislike{background:url(smilies/no.gif) 0 0;}
+.animaterofl{background:url(smilies/rofl.gif) 0 0;}

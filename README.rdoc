@@ -4,17 +4,21 @@ How to use
 
 Include the gem in the Gemfile
 
-gem "emoticons_helper"
+  gem "emoticons_helper"
 
 Run bundle install
 
 Run the generator
 
-rails generate smile
+  rails generate smile
 
 Now in your view file use the method replace_smilies
 
-<%= replace_smilies(text) %>
+  <%= replace_smilies(text) %>
+
+For animated smilies pass true option while method call
+
+  <%= replace_smilies(text, true) %>
 
 == Contributing to emoticons_helper
 
