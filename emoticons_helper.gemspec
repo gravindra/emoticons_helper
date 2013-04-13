@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{emoticons_helper}
-  s.version = "0.1.3"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["gravindra"]
-  s.date = %q{2013-04-01}
+  s.date = %q{2013-04-13}
   s.description = %q{Gives face to your text.}
   s.email = %q{ravighare26@gmail.com}
   s.extra_rdoc_files = [
@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
     "emoticons_helper.gemspec",
     "lib/emoticons_helper.rb",
     "lib/generators/smile_generator.rb",
-    "lib/generators/templates/smilies-sprite.png",
     "lib/generators/templates/smilies.css",
     "lib/generators/templates/smilies.yml",
     "test/helper.rb",
