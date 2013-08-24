@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{emoticons_helper}
+  s.name = "emoticons_helper"
   s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["gravindra"]
-  s.date = %q{2013-04-27}
-  s.description = %q{Gives face to your text.}
-  s.email = %q{ravighare26@gmail.com}
+  s.date = "2013-08-24"
+  s.description = "Gives face to your text."
+  s.email = "ravighare26@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "emoticons_helper.gemspec",
     "lib/emoticons_helper.rb",
     "lib/generators/smile_generator.rb",
+    "lib/generators/templates/smileys.rb",
     "lib/generators/templates/smilies.css",
     "lib/generators/templates/smilies.yml",
     "lib/generators/templates/smilies/angry.gif",
@@ -48,17 +49,16 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_emoticons_helper.rb"
   ]
-  s.homepage = %q{http://github.com/gravindra/emoticons_helper}
+  s.homepage = "http://github.com/gravindra/emoticons_helper"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
-  s.summary = %q{This Gem Rocks ...}
+  s.rubygems_version = "1.8.25"
+  s.summary = "This Gem Rocks ..."
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
