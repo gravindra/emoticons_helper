@@ -3,10 +3,11 @@ module SmileyHelpers
   def self.regex
     return @regex if defined?(@regex)
 
-    before_and_after = "[.,;:!\\?\\(\\[\\{\\)\\]\\}\\-]|\\s"
-    @regex = Regexp.compile("(^|#{before_and_after})(" +
-            smilies.keys.map { |token| Regexp.escape(token) }.join("|") +
-            ")($|#{before_and_after})", Regexp::MULTILINE)
+    before_and_after_with_space = "[.,;:!\\?\\(\\[\\{\\)\\]\\}\\-]|\\s"
+    before_and_after_without_space = "[.,;:!\\?\\(\\[\\{\\)\\]\\}\\-]|"
+    @regex = Regexp.compile("(^|#{before_and_after_with_space})(" +
+            smilies.keys.map { |token| Regexp.union(token) }.join("|") +
+            ")($|#{before_and_after_without_space})", Regexp::MULTILINE|Regexp::IGNORECASE|Regexp::EXTENDED)
   end
 
   def self.smilies
